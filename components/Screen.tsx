@@ -4,7 +4,7 @@ import { Header } from "./Header";
 
 export const Screen = ({ children }: any) => {
   return (
-    <div className=" bg-zinc-900 md:h-screen w-screen md:fixed flex flex-col">
+    <div className=" bg-zinc-900 md:h-screen w-screen flex flex-col">
       <div className="flex-initial w-screen pb-4">
         <Header />
       </div>
