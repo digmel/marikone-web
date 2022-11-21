@@ -15,8 +15,8 @@ export const Footer = () => {
       </div>
 
       <div className="flex-initial md:w-40 justify-center text-zinc-100 flex flex-row md:flex-col mt-4 md:mt-0">
-        <h1 className="pr-1 text-sm">© 2022 MARIKONE</h1>
-        <h1 className="pr-1 text-sm">All rights reserved.</h1>
+        <h1 className="pr-1 text-sm text-end">© 2022 MARIKONE</h1>
+        <h1 className="pr-1 text-sm text-end">All rights reserved.</h1>
       </div>
     </div>
   );
