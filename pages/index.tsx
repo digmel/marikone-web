@@ -3,6 +3,7 @@ import {
   HeroSection,
   PopularSection,
   Screen,
+  StyleSection,
 } from "../components";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <PopularSection />
+      <StyleSection />
     </Screen>
   );
 }
