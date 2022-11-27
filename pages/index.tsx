@@ -1,5 +1,6 @@
 import {
   AboutSection,
+  ContactSection,
   HeroSection,
   PopularSection,
   Screen,
@@ -13,6 +14,7 @@ export default function Home() {
       <AboutSection />
       <PopularSection />
       <StyleSection />
+      <ContactSection />
     </Screen>
   );
 }

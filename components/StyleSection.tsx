@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const StyleSection = () => {
   return (
-    <div className="md:py-16 py-12 w-screen mb-32 flex flex-col items-center">
+    <div className="w-screen mb-32 flex flex-col items-center">
       <StyleSectionIcon />
 
       <div className="mt-16 flex flex-row -mx-2">

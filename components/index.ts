@@ -5,3 +5,4 @@ export * from "./HeroSection";
 export * from "./AboutSection";
 export * from "./PopularSection";
 export * from "./StyleSection";
+export * from "./ContactSection";
