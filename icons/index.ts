@@ -6,3 +6,4 @@ export * from "./AboutSectionIcon";
 export * from "./PopularSectionIcon";
 export * from "./StyleSectionIcon";
 export * from "./ContactSectionIcon";
+export * from "./LocationIcon";

@@ -6,3 +6,5 @@ export * from "./AboutSection";
 export * from "./PopularSection";
 export * from "./StyleSection";
 export * from "./ContactSection";
+export * from "./StoreInfo";
+export * from "./TextInput";
