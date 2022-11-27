@@ -2,4 +2,7 @@ export * from "./Logo";
 export * from "./InstagramIcon";
 export * from "./FacebookIcon";
 export * from "./EmailIcon";
-export * from "./AboutIcon";
+export * from "./AboutSectionIcon";
+export * from "./PopularSectionIcon";
+export * from "./StyleSectionIcon";
+export * from "./ContactSectionIcon";
