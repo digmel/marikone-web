@@ -14,7 +14,7 @@ export const HeroSection = () => {
         <div className="flex-col mx-4">
           <div className=" mb-8">
             <Image
-              src="/assets/image1.png"
+              src="/assets/hero1.png"
               width={390}
               height={507}
               alt="1"
@@ -23,7 +23,7 @@ export const HeroSection = () => {
           </div>
           <div className=" mb-8">
             <Image
-              src="/assets/image4.png"
+              src="/assets/hero2.png"
               width={390}
               height={507}
               alt="4"
@@ -32,7 +32,7 @@ export const HeroSection = () => {
           </div>
           <div className="mb-8">
             <Image
-              src="/assets/image7.png"
+              src="/assets/hero3.png"
               width={390}
               height={507}
               alt="7"
@@ -44,7 +44,7 @@ export const HeroSection = () => {
         <div className="flex-col mx-4">
           <div className=" mb-8">
             <Image
-              src="/assets/image2.png"
+              src="/assets/hero4.png"
               width={390}
               height={507}
               alt="2"
@@ -53,7 +53,7 @@ export const HeroSection = () => {
           </div>
           <div className=" mb-8">
             <Image
-              src="/assets/image5.png"
+              src="/assets/hero5.png"
               width={390}
               height={507}
               alt="5"
@@ -62,7 +62,7 @@ export const HeroSection = () => {
           </div>
           <div className="mb-8">
             <Image
-              src="/assets/image8.png"
+              src="/assets/hero6.png"
               width={390}
               height={507}
               alt="8"
@@ -74,7 +74,7 @@ export const HeroSection = () => {
         <div className="flex-col mx-4">
           <div className=" mb-8">
             <Image
-              src="/assets/image3.png"
+              src="/assets/hero7.png"
               width={390}
               height={507}
               alt="3"
@@ -83,7 +83,7 @@ export const HeroSection = () => {
           </div>
           <div className=" mb-8">
             <Image
-              src="/assets/image6.png"
+              src="/assets/hero8.png"
               width={390}
               height={507}
               alt="6"
@@ -92,7 +92,7 @@ export const HeroSection = () => {
           </div>
           <div className="mb-8">
             <Image
-              src="/assets/image9.png"
+              src="/assets/hero9.png"
               width={390}
               height={507}
               alt="9"
