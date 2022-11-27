@@ -26,7 +26,7 @@ export const HeroSection = () => {
               src="/assets/hero2.png"
               width={390}
               height={507}
-              alt="4"
+              alt="2"
               quality={30}
             />
           </div>
@@ -35,7 +35,7 @@ export const HeroSection = () => {
               src="/assets/hero3.png"
               width={390}
               height={507}
-              alt="7"
+              alt="3"
               quality={30}
             />
           </div>
@@ -47,7 +47,7 @@ export const HeroSection = () => {
               src="/assets/hero4.png"
               width={390}
               height={507}
-              alt="2"
+              alt="4"
               quality={30}
             />
           </div>
@@ -65,7 +65,7 @@ export const HeroSection = () => {
               src="/assets/hero6.png"
               width={390}
               height={507}
-              alt="8"
+              alt="6"
               quality={30}
             />
           </div>
@@ -77,7 +77,7 @@ export const HeroSection = () => {
               src="/assets/hero7.png"
               width={390}
               height={507}
-              alt="3"
+              alt="7"
               quality={30}
             />
           </div>
@@ -86,7 +86,7 @@ export const HeroSection = () => {
               src="/assets/hero8.png"
               width={390}
               height={507}
-              alt="6"
+              alt="8"
               quality={30}
             />
           </div>

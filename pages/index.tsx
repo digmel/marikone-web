@@ -1,10 +1,16 @@
-import { About, HeroSection, Screen } from "../components";
+import {
+  AboutSection,
+  HeroSection,
+  PopularSection,
+  Screen,
+} from "../components";
 
 export default function Home() {
   return (
     <Screen>
       <HeroSection />
-      <About />
+      <AboutSection />
+      <PopularSection />
     </Screen>
   );
 }
