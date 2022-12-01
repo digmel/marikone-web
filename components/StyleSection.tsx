@@ -7,8 +7,8 @@ export const StyleSection = () => {
     <div className="w-screen mb-32 flex flex-col items-center">
       <StyleSectionIcon />
 
-      <div className="mt-16 flex flex-row -mx-2">
-        <div className="flex-col mx-2">
+      <div className="mt-16 flex md:flex-row flex-col md:-mx-2">
+        <div className="md:flex-col flex-row mx-2 md:px-0 px-2">
           <div className=" mb-4">
             <Image
               src="/assets/bw1.png"
@@ -29,7 +29,7 @@ export const StyleSection = () => {
           </div>
         </div>
 
-        <div className="flex-col mx-2">
+        <div className="md:flex-col flex-row-reverse mx-2 md:px-0 px-2 pt-4 md:pt-0">
           <div className="">
             <Image
               src="/assets/bw3.png"
@@ -50,7 +50,7 @@ export const StyleSection = () => {
           </div>
         </div>
 
-        <div className="flex-col mx-2">
+        <div className="md:flex-col flex-row-reverse mx-2 md:px-0 px-2 py-4 md:py-0">
           <div className=" mb-4">
             <Image
               src="/assets/bw5.png"
@@ -71,7 +71,7 @@ export const StyleSection = () => {
           </div>
         </div>
 
-        <div className="flex-col mx-2">
+        <div className="flex-col mx-2 md:visible">
           <div className="">
             <Image
               src="/assets/bw7.png"

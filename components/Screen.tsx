@@ -11,7 +11,7 @@ export const Screen = ({ children }: any) => {
 
       <div className="w-screen overflow-visible mt-24 ">{children}</div>
 
-      <div className="flex-initial w-screen">
+      <div className="flex-initial w-screen md:mt-56 mt-32 ">
         <Footer />
       </div>
     </div>

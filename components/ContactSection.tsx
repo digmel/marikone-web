@@ -5,7 +5,7 @@ import { TextInput } from "./TextInput";
 
 export const ContactSection = () => {
   return (
-    <div className="md:mb-56 mb-36 flex flex-col items-center">
+    <div className="flex flex-col items-center">
       <div className="opacity-0 md:opacity-100">
         <ContactSectionIcon />
       </div>
@@ -34,7 +34,7 @@ export const ContactSection = () => {
           />
         </div>
 
-        <div className="md:hidden mt-24 mb-12 self-center scale-75">
+        <div className="md:hidden mt-24 mb-12 self-center scale-75 z-0">
           <ContactSectionIcon />
         </div>
 
