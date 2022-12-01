@@ -7,3 +7,4 @@ export * from "./PopularSectionIcon";
 export * from "./StyleSectionIcon";
 export * from "./ContactSectionIcon";
 export * from "./LocationIcon";
+export * from "./PhoneIcon";
