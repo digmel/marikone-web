@@ -5,12 +5,16 @@ import { TextInput } from "./TextInput";
 
 export const ContactSection = () => {
   return (
-    <div className="mb-64 flex flex-col items-center">
-      <ContactSectionIcon />
+    <div className="md:mb-56 mb-36 flex flex-col items-center">
+      <div className="opacity-0 md:opacity-100">
+        <ContactSectionIcon />
+      </div>
 
-      <div className="bg-zinc-800 w-fit rounded-lg mt-12 flex flex-row py-12 px-14">
-        <div className="flex border-r border-zinc-50 border-opacity-50 flex-col pr-12 -mt-2">
-          <h1 className="text-accent-100 font-semibold">Store Locations</h1>
+      <div className="md:bg-zinc-800 md:w-fit w-screen rounded-lg mt-12 flex md:flex-row flex-col py-12 md:px-14">
+        <div className="flex md:border-r bg-zinc-800 md:bg-transparent border-light border-opacity-50 flex-col md:pr-12 md:-mt-2 md:items-start items-center py-12 w-screen md:w-fit">
+          <h1 className="text-accent-100 font-semibold text-xl pb-4">
+            Store Locations
+          </h1>
 
           <StoreInfo
             title="City Mall"
@@ -30,12 +34,16 @@ export const ContactSection = () => {
           />
         </div>
 
-        <div className="flex basis-3/4 flex-col items-center justify-center pl-12">
+        <div className="md:hidden mt-24 mb-12 self-center scale-75">
+          <ContactSectionIcon />
+        </div>
+
+        <div className="flex basis-3/4 flex-col items-center justify-center md:pl-12">
           <TextInput label="Name" className="mb-8" />
           <TextInput label="Email" className="mb-8" />
           <TextInput label="Message" variant="textarea" className="mb-8" />
 
-          <button className="w-32 h-12 bg-accent-200 rounded self-start ml-4">
+          <button className="w-32 h-12 bg-accent-200 rounded md:self-start md:ml-4 self-center">
             <h1 className="text-dark-200 text-lg">Submit</h1>
           </button>
         </div>
