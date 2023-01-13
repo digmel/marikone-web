@@ -4,7 +4,7 @@ import { LocationIcon } from "../icons";
 export const StoreInfo = ({ title, address }: Record<string, string>) => {
   return (
     <>
-      <div className="pt-4 text-light flex flex-row items-center">
+      <div className="pt-4 text-body flex flex-row items-center">
         <div className="flex pr-2 self-start">
           <LocationIcon />
         </div>

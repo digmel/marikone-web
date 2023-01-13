@@ -5,7 +5,7 @@ import Image from "next/image";
 export const StyleSection = () => {
   return (
     <div className="w-screen mb-32 flex flex-col items-center">
-      <StyleSectionIcon />
+      <h1 className="text-dark-200 text-2xl italic font-extralight">Style</h1>
 
       <div className="mt-16 flex md:flex-row flex-col md:-mx-2">
         <div className="md:flex-col flex-row mx-2 md:px-0 px-2">

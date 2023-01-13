@@ -3,7 +3,7 @@ import { EmailIcon, FacebookIcon, InstagramIcon, Logo } from "../icons";
 
 export const Footer = () => {
   return (
-    <div className="md:mx-36 mx-12 pb-12 md:pb-0 flex items-center md:justify-around border-t border-light border-opacity-50 flex-col md:flex-row">
+    <div className="md:mx-36 mx-12 pb-12 md:pb-0 flex items-center md:justify-around border-t border-dark-100 border-opacity-10 flex-col md:flex-row">
       <div className="flex flex-row items-center justify-center text-light invisible md:visible w-24 h-24 -ml-36 -mt-4 pt-6">
         <Logo />
       </div>

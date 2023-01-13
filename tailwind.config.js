@@ -7,7 +7,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        light: "#F4F5F6",
+        light: "#FFFF",
+        section: "#FAFAFA",
+        body: "#646464",
         "dark-100": "#27272A",
         "dark-200": "#18181B",
         "accent-100": "#FCDED6",
@@ -18,8 +20,8 @@ module.exports = {
       center: true,
     },
     fontFamily: {
-      sans: ["Graphik", "sans-serif"],
-      serif: ["Merriweather", "serif"],
+      sans: ["Poppins", "sans-serif"],
+      serif: ["Poppins", "serif"],
     },
   },
   plugins: [],

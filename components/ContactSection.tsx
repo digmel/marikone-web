@@ -7,12 +7,14 @@ export const ContactSection = () => {
   return (
     <div className="flex flex-col items-center">
       <div className="opacity-0 md:opacity-100">
-        <ContactSectionIcon />
+        <h1 className="text-dark-200 text-2xl italic font-extralight">
+          Contact
+        </h1>
       </div>
 
-      <div className="md:bg-zinc-800 md:w-fit w-screen rounded-lg mt-12 flex md:flex-row flex-col py-12 md:px-14">
-        <div className="flex md:border-r bg-zinc-800 md:bg-transparent border-light border-opacity-50 flex-col md:pr-12 md:-mt-2 md:items-start items-center py-12 w-screen md:w-fit">
-          <h1 className="text-accent-100 font-semibold text-xl pb-4">
+      <div className="bg-section md:w-fit w-screen rounded-lg mt-12 flex md:flex-row flex-col py-12 md:px-14">
+        <div className="flex md:border-r bg-section md:bg-transparent border-dark-100 border-opacity-10 flex-col md:pr-12 md:-mt-2 md:items-start items-center py-12 w-screen md:w-fit">
+          <h1 className="text-body font-semibold text-xl pb-4">
             Store Locations
           </h1>
 

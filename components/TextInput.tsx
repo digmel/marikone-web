@@ -24,12 +24,12 @@ export const TextInput = ({
     <>
       <div className={className}>
         <div className="ml-4 px-2 absolute -mt-4">
-          <h1 className=" bg-zinc-800 px-2 text-light ">{label}</h1>
+          <h1 className=" bg-light px-2 text-dark-100 ">{label}</h1>
         </div>
 
         {variant === "input" ? (
           <input
-            className={`rounded-sm h-10 w-80 border border-light bg-transparent z-0 text-light px-4`}
+            className={`rounded-sm h-10 w-80 border border-dark-100 bg-transparent z-0 text-dark-100 px-4`}
             disabled={isDisabled}
             onChange={onFocus}
             placeholder={placeholder}
@@ -37,7 +37,7 @@ export const TextInput = ({
           />
         ) : (
           <textarea
-            className={`rounded-sm w-80 border border-light bg-transparent z-0 text-light px-4 h-32 py-4`}
+            className={`rounded-sm w-80 border border-dark-100 bg-transparent z-0 text-dark-100 px-4 h-32 py-4`}
           />
         )}
       </div>

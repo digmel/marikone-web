@@ -3,7 +3,7 @@ import { EmailIcon, FacebookIcon, InstagramIcon, Logo } from "../icons";
 
 export const Header = () => {
   return (
-    <div className="bg-zinc-800 py-4 px-6 flex justify-around border-b border-light border-opacity-50">
+    <div className="bg-light py-4 px-6 flex justify-around border-b border-dark-100 border-opacity-10">
       <div className=" flex-initial w-40 invisible md:visible"></div>
 
       <div className="flex flex-row items-center justify-center text-zinc-100">
