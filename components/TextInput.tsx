@@ -6,7 +6,8 @@ type TTextInputProps = {
   label: string;
   errorMessage?: string;
   isDisabled?: boolean;
-  onFocus?: any;
+  onChange?: any;
+  value?: string;
   placeholder?: string;
   variant?: TVariant;
   className?: string;
@@ -15,7 +16,8 @@ type TTextInputProps = {
 export const TextInput = ({
   label,
   isDisabled = false,
-  onFocus,
+  onChange,
+  value,
   placeholder,
   variant = "input",
   className,
@@ -31,13 +33,19 @@ export const TextInput = ({
           <input
             className={`rounded-sm h-10 w-80 border border-dark-100 bg-transparent z-0 text-dark-100 px-4`}
             disabled={isDisabled}
-            onChange={onFocus}
+            onChange={onChange}
             placeholder={placeholder}
+            value={value}
             autoCapitalize="none"
           />
         ) : (
           <textarea
             className={`rounded-sm w-80 border border-dark-100 bg-transparent z-0 text-dark-100 px-4 h-32 py-4`}
+            disabled={isDisabled}
+            onChange={onChange}
+            value={value}
+            placeholder={placeholder}
+            autoCapitalize="none"
           />
         )}
       </div>

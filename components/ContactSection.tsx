@@ -1,9 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import { ContactSectionIcon } from "../icons";
 import { StoreInfo } from "./StoreInfo";
 import { TextInput } from "./TextInput";
 
+const URL =
+  "https://script.google.com/macros/s/AKfycbyWA81iY-k9_UAx78vEvaMEwJEtXcpJuiqr1lh3RmvRHauPZjP7XXpl7ReJPkMT5Ujo1w/exec";
+
 export const ContactSection = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const params = {
+    email,
+    name,
+    message,
+  };
+
+  async function sendEmail() {
+    const response = await fetch(URL, {
+      method: "POST",
+      mode: "cors",
+      headers: {
+        "Content-Type": "text/plain",
+      },
+      body: JSON.stringify(params),
+    });
+
+    const res = await response.json();
+    if (res?.result?.contentLength > 0) {
+      setName("");
+      setEmail("");
+      setMessage("");
+    }
+  }
+
   return (
     <div className="flex flex-col items-center">
       <div className="opacity-0 md:opacity-100">
@@ -41,11 +72,30 @@ export const ContactSection = () => {
         </div>
 
         <div className="flex basis-3/4 flex-col items-center justify-center md:pl-12">
-          <TextInput label="Name" className="mb-8" />
-          <TextInput label="Email" className="mb-8" />
-          <TextInput label="Message" variant="textarea" className="mb-8" />
+          <TextInput
+            label="Name"
+            className="mb-8"
+            onChange={(e: any) => setName(e.target.value)}
+            value={name}
+          />
+          <TextInput
+            label="Email"
+            className="mb-8"
+            onChange={(e: any) => setEmail(e.target.value)}
+            value={email}
+          />
+          <TextInput
+            label="Message"
+            variant="textarea"
+            className="mb-8"
+            onChange={(e: any) => setMessage(e.target.value)}
+            value={message}
+          />
 
-          <button className="w-32 h-12 bg-accent-200 rounded md:self-start md:ml-4 self-center">
+          <button
+            className="w-32 h-12 bg-accent-200 rounded md:self-start md:ml-4 self-center"
+            onClick={sendEmail}
+          >
             <h1 className="text-dark-200 text-lg">Submit</h1>
           </button>
         </div>
