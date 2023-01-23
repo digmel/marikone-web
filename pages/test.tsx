@@ -10,7 +10,7 @@ const CameraTest = () => {
       const stream = await navigator.mediaDevices.getUserMedia({
         audio: false,
         video: {
-          facingMode: { exact: "environment" },
+          facingMode: { ideal: "environment" },
           width: { ideal: 300 },
           height: { ideal: 300 },
         },
