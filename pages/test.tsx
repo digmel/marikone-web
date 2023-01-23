@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 const CameraTest = () => {
   const [hasStream, setHaStream] = useState(false);
 
+  //   facingMode: { ideal: "environment" },
   const getUserMedia = async () => {
     try {
       let video = document.getElementById("video");
@@ -10,7 +11,7 @@ const CameraTest = () => {
       const stream = await navigator.mediaDevices.getUserMedia({
         audio: false,
         video: {
-          facingMode: { ideal: "environment" },
+          facingMode: "environment",
           width: { ideal: 300 },
           height: { ideal: 300 },
         },
