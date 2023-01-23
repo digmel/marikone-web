@@ -6,12 +6,13 @@ const CameraTest = () => {
   const getUserMedia = async () => {
     try {
       let video = document.getElementById("video");
+
       const stream = await navigator.mediaDevices.getUserMedia({
         audio: false,
         video: {
-          facingMode: {
-            exact: "environment",
-          },
+          facingMode: { exact: "environment" },
+          width: { ideal: 300 },
+          height: { ideal: 300 },
         },
       });
 
@@ -32,7 +33,7 @@ const CameraTest = () => {
     <div>
       <h1>Hi there</h1>
 
-      <video id="video">Hello</video>
+      <video id="video"></video>
     </div>
   );
 };
