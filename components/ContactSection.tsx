@@ -44,26 +44,17 @@ export const ContactSection = () => {
       </div>
 
       <div className="bg-section md:w-fit w-screen rounded-lg mt-12 flex md:flex-row flex-col py-12 md:px-14">
-        <div className="flex md:border-r bg-section md:bg-transparent border-dark-100 border-opacity-10 flex-col md:pr-12 md:-mt-2 md:items-start items-center py-12 w-screen md:w-fit">
-          <h1 className="text-body font-semibold text-xl pb-4">
-            Store Locations
-          </h1>
+        <div className="flex md:border-r bg-section md:bg-transparent border-dark-100 border-opacity-10 flex-col md:pr-12 md:items-start items-center w-screen md:w-fit">
+          <StoreInfo
+            title="Geo Fashion Lab"
+            address="80 Zakaria Paliashvili St, Tbilisi"
+            phone="+995 591 212 081"
+          />
 
           <StoreInfo
-            title="City Mall"
-            address=" 32 Zakaria Paliashvili St, T'bilisi"
-          />
-          <StoreInfo
-            title="MANGO"
-            address=" 32 Zakaria Paliashvili St, T'bilisi"
-          />
-          <StoreInfo
-            title="EAST POINT"
-            address=" 32 Zakaria Paliashvili St, T'bilisi"
-          />
-          <StoreInfo
-            title="BATUMI MALL"
-            address=" 32 Zakaria Paliashvili St, T'bilisi"
+            title="Comode"
+            address="14 Irakli Abashidze St, Tbilisi"
+            phone="+995 598 533 959"
           />
         </div>
 
