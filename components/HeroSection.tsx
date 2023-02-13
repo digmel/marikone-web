@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const HeroSection = () => {
   return (
-    <div className="min-h-screen flex justify-start pt-4 pb-32 flex-col items-center">
+    <div className="min-h-screen flex justify-start pt-4 md:pb-32 pb-24 flex-col items-center">
       <div className="">
         <h1 className="text-dark-200 text-2xl italic font-extralight">
           Fashion Designer
